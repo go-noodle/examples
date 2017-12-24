@@ -1,9 +1,9 @@
 package main
 
 import (
-	mw "gopkg.in/andviro/noodle.v2/middleware"
-	"gopkg.in/andviro/noodle.v2/render"
-	"gopkg.in/andviro/noodle.v2/wok"
+	mw "github.com/go-noodle/middleware"
+	"github.com/go-noodle/render"
+	"github.com/go-noodle/wok"
 	"html/template"
 	"net/http"
 )
